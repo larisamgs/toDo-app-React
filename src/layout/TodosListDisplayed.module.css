@@ -1,0 +1,25 @@
+.todosList {
+  margin: 0;
+  padding: 0;
+}
+
+.todoItemContainer {
+  position: relative;
+}
+
+.todoItem {
+  background-color: #423a6f;
+  list-style-type: none;
+  padding: 10px;
+  border-bottom: 1px solid #40386b;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.trashIcon {
+  text-align: center;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.8rem;
+  font-size: small;
+}

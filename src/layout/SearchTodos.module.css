@@ -1,0 +1,28 @@
+.searchTodo {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+.searchIcon {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  font-size: small;
+  font-weight: 900;
+}
+
+.searchInput {
+  color: #e2ede8;
+  text-align: center;
+  padding: 10px;
+  height: 30px;
+  width: 300px;
+  border: none;
+  border-radius: 3px;
+  background-color: #252c40;
+  box-sizing: border-box;
+}
+
+.searchInput:focus {
+  outline: #2a4b7c solid 3px;
+}
